@@ -1,0 +1,21 @@
+table {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 170%;
+    tr {
+        td:nth-child(1),
+        td:nth-child(2) {
+            color: #08003A;
+        }
+        td:nth-child(3){
+            color: #716D99;
+            padding-left: 6px;
+        }
+    }
+}
+@media screen and (max-width:430px){
+    table{
+        font-size: 14px;
+    }
+}

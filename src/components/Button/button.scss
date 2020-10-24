@@ -1,0 +1,18 @@
+.button-primary {
+    background-color: #08003a;
+    padding: 12px 18px;
+    color: #f2f3f5;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 430px) {
+    .button-primary {
+        padding: 12px 14px;
+        font-size: 16px;
+    }
+}

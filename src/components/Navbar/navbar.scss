@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+.navbar-container {
+    background: #fff;
+    -webkit-box-shadow: -8px 1px 40px 0px rgba(251, 240, 240, 0.8);
+    -moz-box-shadow: -8px 1px 40px 0px rgba(251, 240, 240, 0.8);
+    box-shadow: -8px 1px 40px 0px rgba(251, 240, 240, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 100px;
+    color: #08003a;
+    font-family: "Open Sans", sans-serif;
+    .navbar-item {
+        color: #08003a;
+        text-decoration: none;
+        margin-right: 30px;
+        padding: 12px;
+    }
+    .navbar-item:hover {
+        border-bottom: 2px solid #08003a;
+    }
+    .navbar-item.active {
+        border-bottom: 2px solid #08003a;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width:430px){
+    .navbar-container{
+        min-height: 60px;
+        .navbar-logo{
+            display: none;
+        }
+    }
+}

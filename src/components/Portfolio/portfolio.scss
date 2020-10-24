@@ -1,0 +1,14 @@
+.portfolio{
+    background-color: #08003A;
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+@media screen and (max-width:430px){
+    .portfolio{
+        padding: 100px 16px;
+    }
+}
