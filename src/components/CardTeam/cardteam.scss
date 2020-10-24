@@ -1,0 +1,35 @@
+.card-team{
+    .card-image{
+        position: relative;
+        width: 280px;
+        height: 340px;
+        background-color: #fff;
+        margin: auto;
+        margin-bottom: 44px;
+    }
+    .card-image::after{
+        content: '';
+        position: absolute;
+        width: 280px;
+        height: 340px;
+        border: 10px solid #716D99;
+        top:10px;
+        right:10px;
+    }
+    h4{
+        font-family: 'Poppins',sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 170%;
+        color: #F2F3F5;
+        text-align: center;
+    }
+    p{
+        font-family: 'Poppins',sans-serif;
+        font-size: 14px;
+        line-height: 170%;
+        color: #716D99;
+        text-align: center;
+
+    }
+}
