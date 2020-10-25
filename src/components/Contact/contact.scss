@@ -1,0 +1,19 @@
+.contact-container{
+    background-color: #F2F3F5;
+    height: 417px;
+    text-align: center;
+    h1{
+        font-family: 'Poppins',sans-serif;
+        font-size: 36px;
+        line-height: 170%;
+        font-weight: 500;
+        color: #08003A;
+        text-align: center;
+        padding-top: 36px;
+        margin-bottom: 36px;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+    }
+}
