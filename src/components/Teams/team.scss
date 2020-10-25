@@ -16,3 +16,12 @@
         justify-content: center;
     }
 }
+
+@media screen and (max-width:430px){
+    .team-container{
+        padding-bottom: 80px;
+        .team-item{
+            flex-direction: column;
+        }
+    }
+}

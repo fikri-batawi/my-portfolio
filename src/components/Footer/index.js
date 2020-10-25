@@ -1,9 +1,9 @@
 import React from 'react';
 import './footer.scss';
 
-const Footer = () => {
+const Footer = ({bg}) => {
     return (
-        <div className="footer-container">
+        <div className={`footer-container ${bg}`}>
             <p>&copy; Copyright AllRight {new Date().getFullYear()} - Muhammad fikri</p>
         </div>
     )
