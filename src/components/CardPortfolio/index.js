@@ -8,7 +8,7 @@ const CardPortfolio = ({ image, title, subtitle, url }) => {
                 <div className="card-image">
                     <img src={image} alt="..." />
                 </div>
-                <a href={url}>
+                <a href={url} target="blank">
                     <h2 className="card-title">{title}</h2>
                 </a>
                 <p className="card-subtitle">{subtitle}</p>

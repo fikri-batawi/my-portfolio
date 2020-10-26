@@ -11,7 +11,7 @@ const Portfolio = () => {
                 image={contentPantau}
                 title="Application Android Data Covid Indonesia"
                 subtitle="React Native, Public API."
-                url="#" />
+                url="/portfolio/pantau-covid" />
             <Gap height={42} />
             <CardPortfolio
                 image={contentCVM}

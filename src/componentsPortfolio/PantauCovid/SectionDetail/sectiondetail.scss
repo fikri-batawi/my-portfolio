@@ -1,0 +1,103 @@
+.detail-pantau-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    padding: 0 100px;
+    font-family: "Montserrat", sans-serif;
+    .detail-pantau-content {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 100px;
+        z-index: 2;
+        p:nth-child(1) {
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 120%;
+            color: #0db286;
+        }
+        h2 {
+            font-size: 64px;
+            font-weight: 600;
+            line-height: 100%;
+            color: #f88053;
+            width: 236px;
+            margin-top: 12px;
+            margin-bottom: 28px;
+        }
+        p:nth-child(3) {
+            font-size: 18px;
+            line-height: 120%;
+            color: #9a9a9a;
+            width: 311px;
+        }
+    }
+    .detail-pantau-image {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        img {
+            width: 60%;
+        }
+    }
+    .detail-pantau-shape {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        img {
+            position: absolute;
+            z-index: 1;
+        }
+        img:nth-child(2) {
+            top: 400px;
+            right: 44px;
+        }
+    }
+}
+
+@media screen and (max-width:430px){
+    .detail-pantau-container{
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 80px 16px;
+        .detail-pantau-image,.detail-pantau-content{
+            width: 100%;
+            align-items: center;
+        }
+        .detail-pantau-content{
+            justify-content: flex-end;
+            margin-left: 0;
+            margin-top: 32px;
+            p:nth-child(1){
+                font-size: 18px;
+            }
+            h2{
+                font-size: 32px;
+                width: auto;
+                margin-bottom: 16px;
+            }
+            p:nth-child(3){
+                width: auto;
+                font-size: 16px;
+                text-align: center;
+            }
+
+        }
+        .detail-pantau-shape{
+            img:nth-child(1){
+               top: 0;
+               right: -300px;
+            }
+        }
+    }
+}
