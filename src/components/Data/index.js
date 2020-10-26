@@ -18,7 +18,9 @@ const Data = () => {
                     <Gap height={16} />
                     <DataTable/>
                     <Gap height={36} />
-                    <Button title="Download CV"/>
+                    <Button 
+                        url="https://github.com/fikri-batawi/my-portfolio/tree/master/src/assets/resume/Resume-MuhammadFikri.pdf" 
+                        title="Download CV"/>
                 </div>
             </div>
         </>

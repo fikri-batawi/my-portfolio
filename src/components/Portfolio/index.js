@@ -17,13 +17,13 @@ const Portfolio = () => {
                 image={contentCVM}
                 title="Website Laboratory Computer Vision and Multimedia "
                 subtitle="HTML, CSS, Javascript."
-                url="https://lab-cvm.netlify.app" />
+                link="https://lab-cvm.netlify.app"/>
             <Gap height={42} />
             <CardPortfolio
                 image={contentPhotos}
                 title="Application Android Photos"
                 subtitle="React Native, Public API, Fetch Blob."
-                url="#" />
+                url="/portfolio/photos" />
         </div>
     )
 }

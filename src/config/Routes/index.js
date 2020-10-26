@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { About, Homepage } from '../../pages'
-import { PantauCovid } from '../../pagesPortfolio'
+import { PantauCovid, Photos } from '../../pagesPortfolio'
 
 const Routes = () => {
     return (
@@ -10,6 +10,7 @@ const Routes = () => {
                 <Route path="/" exact component={Homepage}/>
                 <Route path="/about" component={About}/>
                 <Route path="/portfolio/pantau-covid" component={PantauCovid}/>
+                <Route path="/portfolio/photos" component={Photos}/>
             </Switch>
         </Router>
     )

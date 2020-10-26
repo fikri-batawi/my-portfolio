@@ -1,8 +1,10 @@
 import React from 'react';
 import './navbar.scss';
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom';
+import { pageRoutes } from '../../config/Routes/routes';
 
 const Navbar = () => {
+    const loc = useLocation().pathname
     return (
         <>
             <div className="navbar-container">
@@ -10,8 +12,13 @@ const Navbar = () => {
                     <h1>Muhammad Fikri</h1>
                 </div>
                 <div className="navbar-menu">
-                    <Link className="navbar-item active" to="/">Home</Link>
-                    <Link className="navbar-item" to="/about">About</Link>
+                    {
+                        pageRoutes.map(route => {
+                            if (loc === route.url) return <Link key={route.url} className="navbar-item active" to={route.url}> {route.title} </Link>
+                            else return <Link key={route.url} className="navbar-item" to={route.url}>
+                                {route.title} </Link>
+                        })
+                    }
                 </div>
             </div>
         </>
