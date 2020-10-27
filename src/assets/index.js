@@ -41,16 +41,27 @@ import detailPantau from './images/pantau-detail.png';
 // shape detail pantau
 import shapedetail1 from './shapes/shape-pantau-detail1.png';
 import shapedetail2 from './shapes/shape-pantau-detail2.png';
-// section download pantau
-// import downloadPantau from './images/pantau-download.png';
 // shape download pantau
 import shapedownload1 from './shapes/shape-pantau-download1.png';
 import shapedownload2 from './shapes/shape-pantau-download2.png';
+
+// Photos
+// hero photos
+import heroPhotos from './images/photos-hero.png';
+// about photos
+import aboutPhotos from './images/photos-about.png';
+// icon features photos
+import iconFeaturePhotos1 from './icons/photos-feature1.png';
+import iconFeaturePhotos2 from './icons/photos-feature2.png';
+import iconFeaturePhotos3 from './icons/photos-feature3.png';
+// bg download photos
+import bgDownloadPhotos from './images/photos-bg-download.png';
 
 
 export {contentCVM,contentPhotos, contentPantau};
 export {iconService1,iconService2, iconService3};
 export {instagram,youtube, twitter,github};
+// pantau
 export {heroPantau};
 export {shapeHero1,shapeHero2,shapeHero3};
 export {homescreenPantau};
@@ -61,5 +72,9 @@ export {dataPantau};
 export {shapedata1,shapedata2};
 export {detailPantau};
 export {shapedetail1,shapedetail2};
-// export {downloadPantau};
 export {shapedownload1,shapedownload2};
+// photos
+export {heroPhotos};
+export {aboutPhotos};
+export {iconFeaturePhotos1,iconFeaturePhotos2,iconFeaturePhotos3};
+export {bgDownloadPhotos};

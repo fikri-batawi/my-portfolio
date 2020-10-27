@@ -8,7 +8,7 @@ const SectionDownload = () => {
             <div className="download-pantau-content">
                 <h2>Ready-to-use</h2>
                 <p>Download and get the latest info on covid data in Indonesia.</p>
-                <a href="#download" className="button-download">Download App</a>
+                <a href="https://drive.google.com/file/d/13mo7ExS7PmzBQhYAm-hJjbltES0OxQuJ/view?usp=sharing" className="button-download">Download App</a>
             </div>
             <div className="download-pantau-image">
                 <img src={homescreenPantau} alt='...' />

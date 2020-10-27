@@ -1,0 +1,63 @@
+.hero-photos-container{
+    background-color: #2D2B27;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 0 100px;
+    font-family:'Poppins',sans-serif ;
+    color:#fff; 
+    .hero-photos-content,.hero-photos-image{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hero-photos-content{
+        h1{
+            font-weight: bold;
+            font-size: 64px;
+            line-height: 120%;
+            width: 461px;
+        }
+        p{
+            font-weight: normal;
+            font-size: 2    4px;
+            line-height: 120%;
+            width: 541px;
+            margin: 32px 0;
+        }
+    }
+    .hero-photos-image{
+        align-items: center;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:430px){
+    .hero-photos-container{
+        flex-direction: column-reverse;
+        padding:80px 16px;
+        height: auto;
+        .hero-photos-image{
+            width: 100%;
+            align-items: center;
+        }
+        .hero-photos-content{
+            width: 100%;
+            margin-top: 32px;
+            h1,p{
+                width:auto;
+            }
+            h1{
+                font-size: 32px;
+            }
+            p{
+                font-size: 14px;
+                margin: 16px 0;
+            }
+        }
+    }
+}

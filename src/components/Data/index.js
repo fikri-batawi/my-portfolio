@@ -19,7 +19,7 @@ const Data = () => {
                     <DataTable/>
                     <Gap height={36} />
                     <Button 
-                        url="https://github.com/fikri-batawi/my-portfolio/tree/master/src/assets/resume/Resume-MuhammadFikri.pdf" 
+                        url="https://drive.google.com/file/d/1gCJC-UPvauf4WHUHGigqAWboOCjuHDFr/view?usp=sharing" 
                         title="Download CV"/>
                 </div>
             </div>

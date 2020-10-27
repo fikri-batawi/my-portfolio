@@ -1,0 +1,31 @@
+.features-photos-container{
+    width: 100%;
+    height: 492px;
+    background-color: #E5E5E5;
+    h2{
+        font-family:'Poppins', sans-serif   ;
+        font-size: 64px;
+        font-weight: bold;
+        color:#373737;
+        line-height: 120%;
+        padding-top: 32px;
+        margin-bottom: 82px;
+        text-align:center;
+    }
+    .features-photos-content{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:430px){
+    .features-photos-container{
+        padding:80px 16px;
+        height:auto;
+        h2{
+            font-size:32px;
+        }
+        .features-photos-content{
+            flex-direction: column;
+        }
+    }
+}
