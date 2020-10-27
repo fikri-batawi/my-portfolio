@@ -11,7 +11,7 @@ const CardPortfolio = ({ image, title, subtitle, url, link }) => {
                 </div>
                 {
                     link === undefined ?
-                        <Link to={url} target="blank">
+                        <Link to={url}>
                             <h2 className="card-title">{title}</h2>
                         </Link> :
                         <a href={link} target="blank">
