@@ -6,8 +6,8 @@ const DownloadPhotos = () => {
     return (
         <div className="download-photos-container">
             <div className="download-photos-content">
-                <h2>Download For Free</h2>
-                <p>Download the photos app and find interesting pictures from photographers.</p>
+                <h2 data-aos="fade-right" data-aos-duration="1300">Download For Free</h2>
+                <p data-aos="fade-right" data-aos-duration="1500">Download the photos app and find interesting pictures from photographers.</p>
                 <ButtonDownloadPhotos />
             </div>
         </div>

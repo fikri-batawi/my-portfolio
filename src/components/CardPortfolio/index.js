@@ -5,7 +5,7 @@ import './cardportfolio.scss'
 const CardPortfolio = ({ image, title, subtitle, url, link }) => {
     return (
         <>
-            <div className="card-container">
+            <div className="card-container" data-aos="fade-up" data-aos-duration="1000">
                 <div className="card-image">
                     <img src={image} alt="..." />
                 </div>

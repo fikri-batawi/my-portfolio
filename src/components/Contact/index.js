@@ -9,7 +9,7 @@ import {instagram,youtube,github} from '../../assets'
 const Contact = () => {
     return (
         <div className="contact-container">
-            <h1>Contact Me</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1500">Contact Me</h1>
             <Button 
             title="E-mail"
             url="mailto:senikoding@gmail.com" />

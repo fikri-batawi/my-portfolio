@@ -1,9 +1,9 @@
 import React from 'react'
 import './cardservice.scss'
 
-const CardService = ({image,title,subtitle}) => {
+const CardService = ({image,title,subtitle,duration}) => {
     return (
-        <div className="service-card">
+        <div className="service-card" data-aos="zoom-in" data-aos-duration={duration}>
             <div className="service-image">
                 <img src={image} width="64" height="64" alt="..." />
             </div>

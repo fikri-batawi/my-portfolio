@@ -9,16 +9,22 @@ const Teams = () => {
             <h2>Our Teams</h2>
             <div className="team-item">
                 <CardTeam
+                    animate="fade-right"
+                    duration={1200}
                     image=""
                     name="Muhammad Fikri"
                     position="Website Design" />
                 <Gap width={126} />
                 <CardTeam
+                    animate="fade-up"
+                    duration={1200}
                     image=""
                     name="Muhammad Fikri"
                     position="Front End Developer" />
                 <Gap width={126} />
                 <CardTeam
+                    animate="fade-left"
+                    duration={1200}
                     image=""
                     name="Muhammad Fikri"
                     position="Back End Developer" />
