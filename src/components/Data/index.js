@@ -19,7 +19,7 @@ const Data = () => {
                     <DataTable/>
                     <Gap height={36} />
                     <Button 
-                        url="https://drive.google.com/file/d/1gCJC-UPvauf4WHUHGigqAWboOCjuHDFr/view?usp=sharing" 
+                        url="https://drive.google.com/file/d/1iNPK6BoNOzUXzMRHITml3tf0Z9jDC9is/view?usp=sharing" 
                         title="Download CV"/>
                 </div>
             </div>
